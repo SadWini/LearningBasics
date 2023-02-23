@@ -7,12 +7,18 @@ contract Faucet{
         constructor(){
             owner = msg.sender;
         } 
-        
+
         //Limit withdraw amount
         require(withdraw_amount<=100000000000000000);
 
         //Send the amount to the address that requested it
         payable(msg.sender).transfer(withdraw_amount);
+
+        //Contract destructor 
+        function destroy() public{
+            require(msg.sender == owner);
+            selfdestruct(owner);
+        }
     }
 
     fallback() external payable{}
