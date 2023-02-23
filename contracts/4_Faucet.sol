@@ -7,6 +7,11 @@ contract Faucet{
         constructor(){
             owner = msg.sender;
         } 
+        //Modifier to allow only the owner of the contract to execute a function
+        modifier onlyOwner {
+            require(msg.sender==owner);
+            _;
+        }
 
         //Limit withdraw amount
         require(withdraw_amount<=100000000000000000);
@@ -15,8 +20,7 @@ contract Faucet{
         payable(msg.sender).transfer(withdraw_amount);
 
         //Contract destructor 
-        function destroy() public{
-            require(msg.sender == owner);
+        function destroy() public onlyOwner{
             selfdestruct(owner);
         }
     }
