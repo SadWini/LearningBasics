@@ -10,7 +10,7 @@ FaucetContract.web3.eth.getGasPrice(function(error, result){
         //Use the keyword 'estimateGas' after the function name to get the gas estimation 
         //for this particular function (approve)
         FaucetContractInstance.send(web3.utils.toWei(1, "ether"));
-        return FaucetContractInstance.withdraw.estimateGas(web3.utils.toWei(0.1, "ether"));
+        return FaucetContractInstance.withdraw(web3.utils.toWei(0.1, "ether")).estimateGas();
     }).then(function(result){
         var gas = Number(result);
 
