@@ -1,22 +1,31 @@
-var FaucetContract = artifacts.require("Faucet.sol");
+const Faucet = artifacts.require("Faucet");
 
-FaucetContract.web3.eth.getGasPrice(function(error, result){
-    var gasPrice = Number(result);
-    console.log("Gas Price is" + gasPrice + "wei"); // "10000000000000"
+module.exports = async function () {
+  Faucet.web3.eth.getGasPrice(async (error, result) => {
+    const gasPrice = Number(result);
 
-    //Get the contract instance 
-    FaucetContract.deployed().then(function(FaucetContractInstance){
+    console.log(`Gas Price is ${gasPrice} wei`); // "10000000000000"
 
-        //Use the keyword 'estimateGas' after the function name to get the gas estimation 
-        //for this particular function (approve)
-        FaucetContractInstance.send(web3.utils.toWei(1, "ether"));
-        return FaucetContractInstance.withdraw(web3.utils.toWei(0.1, "ether")).estimateGas();
-    }).then(function(result){
-        var gas = Number(result);
+    // Get the contract instance
+    const instance = await Faucet.deployed();
 
-        console.log("gas estimation = " + gas + " units");
-        console.log("gas cost estimation = " + (gas * gasPrice) + " wei");
-        console.log("gas cost estimation = " 
-                + FaucetContract.web3.utils.fromWei((gas * gasPrice), 'ether') + " ether");
-    })
-})
+    // Fund contract for successfully calling withdraw later on
+    await instance.send(web3.utils.toWei("1", "ether"));
+
+    const gas_ = await instance.withdraw.estimateGas(
+      web3.utils.toWei("0.1", "ether")
+    );
+
+    const gas = Number(gas_);
+    const gasCostEstimation = gas * gasPrice;
+
+    console.log(`Gas estimation = ${gas} units`);
+    console.log(`Gas cost estimation = ${gasCostEstimation} wei`);
+    console.log(
+      `Gas cost estimation = ${web3.utils.fromWei(
+        String(gasCostEstimation),
+        "ether"
+      )} ether`
+    );
+  });
+};
