@@ -4,7 +4,9 @@ import (
 	"fmt"
 	"golang.org/x/net/html/links"
 	"log"
+	"net/url"
 	"os"
+	"strings"
 )
 
 func main() {
@@ -29,11 +31,38 @@ func BreadthFirst(f func(item string) []string, worklist []string) {
 	}
 }
 
-func crawl(url string) []string {
-	fmt.Println(url)
-	list, err := links.Extract(url)
+var domain string
+
+func crawl(a string) []string {
+	fmt.Println(a)
+
+	if domain == "" {
+		p, err := url.Parse(a)
+		if err != nil {
+			log.Fatalf("crawl %s get : %v", err)
+		}
+		domain = p.Hostname()
+		if strings.HasPrefix(domain, "www.") {
+			domain = domain[4:]
+		}
+		fmt.Printf("Domain: %s \n", domain)
+	}
+
+	list, err := links.Extract(a)
 	if err != nil {
 		log.Print(err)
 	}
-	return list
+
+	out := list[:0]
+	for _, link := range list {
+		p, err := url.Parse(link)
+		if err != nil {
+			continue
+		}
+		if strings.Contains(p.Hostname(), domain) {
+			fmt.Println(link)
+			out = append(out, link)
+		}
+	}
+	return out
 }
