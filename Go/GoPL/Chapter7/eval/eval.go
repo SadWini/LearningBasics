@@ -1,14 +1,10 @@
-package main
+package eval
 
 import (
 	"fmt"
 	"math"
 	"testing"
 )
-
-func main() {
-
-}
 
 type Var string
 

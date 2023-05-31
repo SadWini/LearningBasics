@@ -1,5 +1,5 @@
 // ref https://github.com/adonovan/gopl.io/blob/master/ch7/eval/parse.go#L59
-package main
+package eval
 
 import (
 	"fmt"

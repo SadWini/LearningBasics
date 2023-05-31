@@ -1,4 +1,4 @@
-package main
+package eval
 
 import (
 	"fmt"
@@ -47,4 +47,24 @@ func (c call) Check(vars map[Var]bool) error {
 		}
 	}
 	return nil
+}
+
+func ParseAndCheck(s string) (Expr, error) {
+	if s == "" {
+		return nil, fmt.Errorf("empty expression")
+	}
+	expr, err := Parse(s)
+	if err != nil {
+		return nil, err
+	}
+	vars := make(map[Var]bool)
+	if err := expr.Check(vars); err != nil {
+		return nil, err
+	}
+	for v := range vars {
+		if v != "x" && v != "y" && v != "r" {
+			return nil, fmt.Errorf("undefined variable: %s", v)
+		}
+	}
+	return expr, nil
 }
