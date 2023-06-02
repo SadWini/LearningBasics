@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a1518114-1968-43f0-a0c5-62058994f8f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/fetch.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/fetch.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter8/reverb2/reverb2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter8/reverb2/reverb2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetch.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/http3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/http3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mandelbrot.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/mandelbrot.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/surface.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/surface.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +49,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\life\LearningBasics\Go\GoPL\Chapter1" />
+      <recent name="C:\life\LearningBasics\Go\GoPL\Chapter8\pipeline3" />
       <recent name="C:\life\LearningBasics\Go\GoPL\Chapter8\reverb1" />
+      <recent name="C:\life\LearningBasics\Go\GoPL\Chapter1" />
       <recent name="C:\life\LearningBasics\Go\GoPL\Chapter8\netcat1" />
       <recent name="C:\life\LearningBasics\Go\GoPL\Chapter8\spinner" />
-      <recent name="C:\life\LearningBasics\Go\GoPL\Chapter7\surface" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
