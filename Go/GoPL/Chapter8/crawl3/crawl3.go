@@ -34,7 +34,7 @@ func main() {
 	for i := 0; i < 20; i++ {
 		go func() {
 			for link := range unseenLinks {
-				foundLinks := crawl(link)
+				foundLinks := crawl(link, cancel)
 				go func() { worklist <- foundLinks }()
 			}
 		}()
@@ -61,9 +61,9 @@ func main() {
 	close(unseenLinks)
 }
 
-func crawl(url string) []string {
+func crawl(url string, cancel <-chan struct{}) []string {
 	fmt.Println(url)
-	list, err := links.Extract(url)
+	list, err := links.Extract(url, cancel)
 	if err != nil {
 		log.Print(err)
 	}
