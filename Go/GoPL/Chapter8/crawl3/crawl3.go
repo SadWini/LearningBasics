@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"links/links/links"
 	"log"
+	"os"
 )
 
 var depth = flag.Int("depth", 1,
@@ -13,6 +14,12 @@ var depth = flag.Int("depth", 1,
 func main() {
 	flag.Parse()
 	worklist := make(chan []string)
+	cancel := make(chan struct{})
+	go func() {
+		os.Stdin.Read(make([]byte, 1))
+		close(cancel)
+	}()
+
 	unseenLinks := make(chan string)
 	var step, d int
 
