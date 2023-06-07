@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1518114-1968-43f0-a0c5-62058994f8f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter8/bank1/bank1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9/bank1/bank1.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +53,11 @@
       <recent name="C:\life\LearningBasics\Go\GoPL\Chapter8" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\life\LearningBasics\Go\GoPL\Chapter9" />
       <recent name="C:\life\LearningBasics\Go\GoPL\Chapter8\pipeline3" />
       <recent name="C:\life\LearningBasics\Go\GoPL\Chapter8\reverb1" />
       <recent name="C:\life\LearningBasics\Go\GoPL\Chapter1" />
       <recent name="C:\life\LearningBasics\Go\GoPL\Chapter8\netcat1" />
-      <recent name="C:\life\LearningBasics\Go\GoPL\Chapter8\spinner" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
