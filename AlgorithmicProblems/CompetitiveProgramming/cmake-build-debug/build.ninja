@@ -67,6 +67,12 @@ build CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2.3.3.cpp.o: CX
   OBJECT_DIR = CMakeFiles/CompetitiveProgramming.dir
   OBJECT_FILE_DIR = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises
 
+build CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2.3.6.cpp.o: CXX_COMPILER__CompetitiveProgramming_Debug /home/skylorun/LearningBasics/LearningBasics/AlgorithmicProblems/CompetitiveProgramming/Chapter1/Exercises/1.2.3.6.cpp || cmake_object_order_depends_target_CompetitiveProgramming
+  DEP_FILE = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2.3.6.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/CompetitiveProgramming.dir
+  OBJECT_FILE_DIR = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CompetitiveProgramming
@@ -75,7 +81,7 @@ build CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2.3.3.cpp.o: CX
 #############################################
 # Link the executable CompetitiveProgramming
 
-build CompetitiveProgramming: CXX_EXECUTABLE_LINKER__CompetitiveProgramming_Debug CMakeFiles/CompetitiveProgramming.dir/Chapter1/studentpairs/booksolution.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2.3.2.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2.3.3.cpp.o
+build CompetitiveProgramming: CXX_EXECUTABLE_LINKER__CompetitiveProgramming_Debug CMakeFiles/CompetitiveProgramming.dir/Chapter1/studentpairs/booksolution.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2.3.2.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2.3.3.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2.3.6.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/CompetitiveProgramming.dir
   POST_BUILD = :
