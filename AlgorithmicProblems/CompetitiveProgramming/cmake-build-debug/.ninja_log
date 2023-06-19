@@ -1,5 +1,9 @@
 # ninja log v5
 3	451	1687016260125664943	CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2.3.2.cpp.o	2683e441e8202091
-0	49	1687091615916093511	build.ninja	e62d286c803b78b6
+0	49	1687205572117375550	build.ninja	e62d286c803b78b6
 131	159	1687015471154769295	CompetitiveProgramming	19578f867fcdb698
 1	766	1687015456148402011	CMakeFiles/CompetitiveProgramming.dir/Chapter1/studentpairs/booksolution.cpp.o	d8692d044899bc6d
+162	1940	1687206009297791641	CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2.3.6.cpp.o	8c8a83df32c7901b
+164	2382	1687206009741778742	CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3.1.cpp.o	ef09d486908ce098
+161	2640	1687206009997771306	CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2.3.2.cpp.o	2683e441e8202091
+162	5427	1687206012785694288	CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2.3.3.cpp.o	25eb2fbcc1ff519c
