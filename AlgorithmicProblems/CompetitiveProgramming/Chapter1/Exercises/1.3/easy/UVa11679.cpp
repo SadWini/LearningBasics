@@ -1,3 +1,23 @@
-//
-// Created by skylorun on 29.06.23.
-//
+#include <stdio.h>
+
+int main() {
+    int b, n, bank[21], d, c, v;
+    while (scanf("%d %d", &b, &n) && b && n) {
+        for (int i = 1; i <= b; ++i) {
+            scanf("%d", bank + i);
+        }
+        for (int i = 0; i < n; ++i) {
+            scanf("%d %d %d", &d, &c, &v);
+            bank[d] -= v;
+            bank[c] += v;
+        }
+        bool bailout = false;
+        for (int i = 1; i <= b; ++i) {
+            if (bank[i] < 0) {
+                bailout = true;
+            }
+        }
+        puts(bailout ? "N" : "S");
+    }
+    return 0;
+}

@@ -175,6 +175,42 @@ build CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa10114
   OBJECT_DIR = CMakeFiles/CompetitiveProgramming.dir
   OBJECT_FILE_DIR = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy
 
+build CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa10300.cpp.o: CXX_COMPILER__CompetitiveProgramming_Debug /home/skylorun/LearningBasics/LearningBasics/AlgorithmicProblems/CompetitiveProgramming/Chapter1/Exercises/1.3/easy/UVa10300.cpp || cmake_object_order_depends_target_CompetitiveProgramming
+  DEP_FILE = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa10300.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/CompetitiveProgramming.dir
+  OBJECT_FILE_DIR = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy
+
+build CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11332.cpp.o: CXX_COMPILER__CompetitiveProgramming_Debug /home/skylorun/LearningBasics/LearningBasics/AlgorithmicProblems/CompetitiveProgramming/Chapter1/Exercises/1.3/easy/UVa11332.cpp || cmake_object_order_depends_target_CompetitiveProgramming
+  DEP_FILE = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11332.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/CompetitiveProgramming.dir
+  OBJECT_FILE_DIR = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy
+
+build CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11559.cpp.o: CXX_COMPILER__CompetitiveProgramming_Debug /home/skylorun/LearningBasics/LearningBasics/AlgorithmicProblems/CompetitiveProgramming/Chapter1/Exercises/1.3/easy/UVa11559.cpp || cmake_object_order_depends_target_CompetitiveProgramming
+  DEP_FILE = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11559.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/CompetitiveProgramming.dir
+  OBJECT_FILE_DIR = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy
+
+build CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11679.cpp.o: CXX_COMPILER__CompetitiveProgramming_Debug /home/skylorun/LearningBasics/LearningBasics/AlgorithmicProblems/CompetitiveProgramming/Chapter1/Exercises/1.3/easy/UVa11679.cpp || cmake_object_order_depends_target_CompetitiveProgramming
+  DEP_FILE = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11679.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/CompetitiveProgramming.dir
+  OBJECT_FILE_DIR = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy
+
+build CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11769.cpp.o: CXX_COMPILER__CompetitiveProgramming_Debug /home/skylorun/LearningBasics/LearningBasics/AlgorithmicProblems/CompetitiveProgramming/Chapter1/Exercises/1.3/easy/UVa11769.cpp || cmake_object_order_depends_target_CompetitiveProgramming
+  DEP_FILE = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11769.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/CompetitiveProgramming.dir
+  OBJECT_FILE_DIR = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy
+
+build CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11799.cpp.o: CXX_COMPILER__CompetitiveProgramming_Debug /home/skylorun/LearningBasics/LearningBasics/AlgorithmicProblems/CompetitiveProgramming/Chapter1/Exercises/1.3/easy/UVa11799.cpp || cmake_object_order_depends_target_CompetitiveProgramming
+  DEP_FILE = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11799.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/CompetitiveProgramming.dir
+  OBJECT_FILE_DIR = CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CompetitiveProgramming
@@ -183,7 +219,7 @@ build CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa10114
 #############################################
 # Link the executable CompetitiveProgramming
 
-build CompetitiveProgramming: CXX_EXECUTABLE_LINKER__CompetitiveProgramming_Debug CMakeFiles/CompetitiveProgramming.dir/Chapter1/studentpairs/booksolution.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2/1.2.3.2.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2/1.2.3.3.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2/1.2.3.6.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/1.3.1.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/Uva00272.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa01124.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa10550.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa11044.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa11172.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa11364.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa11498.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa11547.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa11727.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa12250.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa12289.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa12372.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa12403.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa12577.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa00621.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa10114.cpp.o
+build CompetitiveProgramming: CXX_EXECUTABLE_LINKER__CompetitiveProgramming_Debug CMakeFiles/CompetitiveProgramming.dir/Chapter1/studentpairs/booksolution.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2/1.2.3.2.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2/1.2.3.3.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.2/1.2.3.6.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/1.3.1.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/Uva00272.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa01124.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa10550.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa11044.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa11172.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa11364.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa11498.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa11547.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa11727.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa12250.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa12289.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa12372.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa12403.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/supereasy/UVa12577.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa00621.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa10114.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa10300.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11332.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11559.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11679.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11769.cpp.o CMakeFiles/CompetitiveProgramming.dir/Chapter1/Exercises/1.3/easy/UVa11799.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/CompetitiveProgramming.dir
   POST_BUILD = :
