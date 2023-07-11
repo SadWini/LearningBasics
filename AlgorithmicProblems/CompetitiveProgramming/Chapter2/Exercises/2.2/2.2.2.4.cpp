@@ -1,3 +1,7 @@
-//
-// Created by skylorun on 08.07.23.
-//
+#include <stdio.h>
+
+int main() {
+    int a;
+    scanf("%d", &a);
+    printf("%d", a | (a + 1));
+}

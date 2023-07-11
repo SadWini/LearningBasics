@@ -1,3 +1,5 @@
-//
-// Created by skylorun on 08.07.23.
-//
+#include <stdio.h>
+
+int main() {
+    printf("KABIR\n");
+}
