@@ -1,0 +1,25 @@
+{
+
+  "name": "faucet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https.//github.com/SadWini/LeariningBasics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethereumjs-wallet": "^1.0.2",
+    "solc": "^0.8.19",
+    "truffle-hdwallet-provider": "1.0.10"
+  }
+}
