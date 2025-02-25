@@ -49,7 +49,6 @@ static void defineNative(const char* name, NativeFn function) {
     push(OBJ_VAL(copyString(name, (int)strlen(name))));
     push(OBJ_VAL(newNative(function)));
     tableSet(&vm.globals, AS_STRING(vm.stack[0]), vm.stack[1]);
-    tableSet(&vm.globals, AS_STRING(vm.stack[0]), vm.stack[1]);
     pop();
     pop();
 }
@@ -387,6 +386,10 @@ static InterpretResult run() {
                 push(result);
 
                 frame = &vm.frames[vm.frameCount - 1];
+                break;
+            }
+            case OP_CLASS: {
+                push(OBJ_VAL(newClass(READ_STRING())));
                 break;
             }
         }

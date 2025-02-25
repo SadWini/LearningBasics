@@ -120,6 +120,10 @@ static void printFunction(ObjFunction* function) {
 
 void printObject(Value value) {
     switch (OBJ_TYPE(value)) {
+        case OBJ_CLASS: {
+            printf("%s", AS_CLASS(value)->name->chars);
+            break;
+        }
         case OBJ_ClOSURE: {
             printFunction(AS_CLOSURE(value)->function);
             break;
@@ -130,6 +134,7 @@ void printObject(Value value) {
         }
         case OBJ_NATIVE:
             printf("<native fn>");
+            break;
         case OBJ_STRING:
             printf("%s", AS_CSTRING(value));
             break;
@@ -137,4 +142,10 @@ void printObject(Value value) {
             printf("upvalue");
             break;
     }
+}
+
+ObjClass* newClass(ObjString* name) {
+    ObjClass* klass = ALLOCATE_OBJ(ObjClass, OBJ_CLASS);
+    klass->name = name;
+    return klass;
 }
