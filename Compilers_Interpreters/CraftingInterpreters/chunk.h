@@ -23,6 +23,8 @@ typedef enum {
     OP_JUMP,
     OP_JUMP_IF_FALSE,
     OP_NOT,
+    OP_GET_PROPERTY,
+    OP_SET_PROPERTY,
     OP_EQUAL,
     OP_GREATER,
     OP_LESS,
